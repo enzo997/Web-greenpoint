@@ -1,0 +1,662 @@
+@charset "UTF-8";
+/*OUR-STORY*/
+body {
+  background-color: #ffffff; }
+
+.our-story--page .sec-banner-top {
+  background-color: #ffffff;
+  padding-top: 198px; }
+  .our-story--page .sec-banner-top .cont-title {
+    max-width: 770px;
+    margin-top: 89px;
+    margin-bottom: 100px; }
+    .our-story--page .sec-banner-top .cont-title .sec-banner-top--title {
+      color: #000000;
+      font-family: "Mikro-Medium";
+      font-size: 50px;
+      letter-spacing: 0.96px;
+      line-height: 72px; }
+  .our-story--page .sec-banner-top .banner-image img {
+    width: 100%;
+    height: 592px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center; }
+.our-story--page .sec-our-strory {
+  background-color: #000000; }
+  .our-story--page .sec-our-strory h4::before {
+    content: "—"; }
+  .our-story--page .sec-our-strory h4 {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    color: #ffffff;
+    font-family: "Mikro-Regular";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    padding: 82px 0px 101px 0px; }
+  .our-story--page .sec-our-strory .row {
+    padding-bottom: 401px;
+    margin: 0px 115px; }
+    .our-story--page .sec-our-strory .row .col-content {
+      max-width: 461px;
+      color: #ffffff;
+      font-family: "GT-Walsheim";
+      font-size: 21px;
+      letter-spacing: 0.4px;
+      margin-left: auto; }
+.our-story--page .sec-after-our-story {
+  background-color: #ffffff; }
+  .our-story--page .sec-after-our-story .banner-image {
+    margin-left: 30%; }
+    .our-story--page .sec-after-our-story .banner-image img {
+      width: 100%;
+      height: 479px;
+      -o-object-position: center;
+         object-position: center;
+      -o-object-fit: cover;
+         object-fit: cover;
+      margin-top: -260px; }
+  .our-story--page .sec-after-our-story .row {
+    padding: 127px 0px 82px 0px;
+    margin: 0px 115px; }
+    .our-story--page .sec-after-our-story .row .col-content {
+      max-width: 461px;
+      color: #000000;
+      font-family: "GT-Walsheim";
+      font-size: 21px;
+      letter-spacing: 0.4px;
+      margin-left: auto; }
+.our-story--page .sec-connections {
+  background: #ffffff; }
+  .our-story--page .sec-connections .cont-title {
+    max-width: 760px;
+    padding-top: 16px;
+    margin-bottom: 83px;
+    margin-left: 58px; }
+    .our-story--page .sec-connections .cont-title .sec-connections--title {
+      color: #000000;
+      font-family: "Mikro-Bold";
+      font-size: 50px;
+      letter-spacing: 0.96px;
+      line-height: 72px; }
+  .our-story--page .sec-connections .row {
+    margin: 0px 70px;
+    margin-right: 6px; }
+    .our-story--page .sec-connections .row .col-content {
+      max-width: 495px;
+      color: #000000;
+      font-family: "GT-Walsheim";
+      font-size: 21px;
+      letter-spacing: 0.4px;
+      margin-left: auto; }
+  .our-story--page .sec-connections .logo-content {
+    padding-left: 310px;
+    margin-top: 120px;
+    margin-bottom: 50px; }
+    .our-story--page .sec-connections .logo-content .row {
+      display: none; }
+      .our-story--page .sec-connections .logo-content .row .img-logo img {
+        max-width: 98px;
+        max-height: 59px;
+        margin: 0px 80px 80px 0px; }
+.our-story--page .sec-tt {
+  background-color: #000000; }
+  .our-story--page .sec-tt .sec-content {
+    position: relative;
+    top: 92px; }
+  .our-story--page .sec-tt h4 {
+    margin-bottom: 130px; }
+  .our-story--page .sec-tt .sub-title {
+    margin-bottom: 77px; }
+  .our-story--page .sec-tt .slider-dots {
+    position: relative; }
+  .our-story--page .sec-tt .slider-arrows {
+    position: relative; }
+  .our-story--page .sec-tt .slick-custom {
+    width: 100%;
+    max-width: 850px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-left: auto;
+    position: absolute;
+    top: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    right: 0; }
+  .our-story--page .sec-tt .tt-slider {
+    max-width: 790px;
+    margin-left: auto;
+    margin-right: 60px; }
+    .our-story--page .sec-tt .tt-slider .slick-slide {
+      margin-bottom: 90px; }
+    .our-story--page .sec-tt .tt-slider .description {
+      margin-bottom: 40px; }
+.our-story--page .sec-our-work-culture {
+  background: #000000; }
+  .our-story--page .sec-our-work-culture .col-header-banner img {
+    width: 100%;
+    height: 705px;
+    -o-object-position: center;
+       object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .our-story--page .sec-our-work-culture .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 92px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .our-story--page .sec-our-work-culture .content .col-header h4::before {
+      content: "—"; }
+    .our-story--page .sec-our-work-culture .content .col-header h4 {
+      -webkit-transform: rotate(-360deg);
+              transform: rotate(-360deg);
+      color: #ffffff;
+      font-family: "Mikro-Regular";
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.35px;
+      margin: 0px -15px;
+      margin-bottom: 77px; }
+    .our-story--page .sec-our-work-culture .content .col-body {
+      margin-right: 86px;
+      margin-bottom: 122px;
+      max-width: 567px; }
+      .our-story--page .sec-our-work-culture .content .col-body .description {
+        color: #ffffff;
+        font-family: "GT-Walsheim";
+        font-size: 21px;
+        letter-spacing: 0.4px;
+        padding-bottom: 38px; }
+      .our-story--page .sec-our-work-culture .content .col-body .sec-link--learn-more-about-our-work {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.27px;
+        text-decoration: underline; }
+      .our-story--page .sec-our-work-culture .content .col-body .sec-link--learn-more-about-our-work:hover {
+        text-decoration: none; }
+.our-story--page .sec-advertisement {
+  margin-bottom: -400px;
+  background: #ffffff; }
+  .our-story--page .sec-advertisement .col-content {
+    margin-bottom: 177px;
+    margin-left: 136px; }
+    .our-story--page .sec-advertisement .col-content .description {
+      margin-top: 150px;
+      margin-bottom: 45px;
+      max-width: 802px;
+      color: #000000;
+      font-family: "Mikro-Bold";
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 0.58px;
+      line-height: 42px; }
+    .our-story--page .sec-advertisement .col-content .sec-link--learn-more {
+      color: #000000;
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.27px;
+      text-decoration: underline; }
+    .our-story--page .sec-advertisement .col-content .sec-link--learn-more:hover {
+      text-decoration: none; }
+  .our-story--page .sec-advertisement .image-description {
+    margin-left: 30%; }
+    .our-story--page .sec-advertisement .image-description img {
+      width: 100%;
+      height: 498px;
+      -o-object-fit: cover;
+         object-fit: cover;
+      -o-object-position: center;
+         object-position: center; }
+  .our-story--page .sec-advertisement .last-content {
+    margin-left: 357px; }
+    .our-story--page .sec-advertisement .last-content .sec-advertisement--title {
+      margin-top: 93px;
+      margin-bottom: 30px;
+      color: #000000;
+      font-family: "Mikro-Bold";
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 0.58px;
+      line-height: 42px; }
+    .our-story--page .sec-advertisement .last-content .description {
+      max-width: 522px;
+      color: #000000;
+      font-family: "GT-Walsheim";
+      font-size: 21px;
+      letter-spacing: 0.4px;
+      margin-bottom: 33px; }
+    .our-story--page .sec-advertisement .last-content .sec-link-discover {
+      position: relative;
+      z-index: 100;
+      color: #000000;
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.27px;
+      text-decoration: underline; }
+    .our-story--page .sec-advertisement .last-content .sec-link-discover:hover {
+      text-decoration: none; }
+
+.header-section .menu-button::before {
+  background-color: #000000; }
+
+.header-section .menu-button::after {
+  background-color: #000000; }
+
+/*RESPONSIVE*/
+@media (max-width: 1441px) {
+  .our-story--page .sec-advertisement .last-content {
+    margin-left: 417px; } }
+@media (max-width: 1280px) {
+  .our-story--page .sec-connections .logo-content {
+    padding-left: 140px; }
+
+  .our-story--page .sec-advertisement .last-content {
+    margin-left: 357px; } }
+@media (max-width: 1200px) {
+  .our-story--page .sec-tt .slider-dots {
+    top: 2px;
+    left: 356px; }
+
+  .our-story--page .sec-connections .logo-content {
+    padding-left: 60px; }
+
+  .our-story--page .sec-advertisement .last-content {
+    margin-left: 257px; } }
+@media (max-width: 992px) {
+  .our-story--page .sec-our-strory .row {
+    padding-bottom: 360px;
+    margin-left: 20px;
+    margin-right: 0px; }
+
+  .our-story--page .sec-after-our-story .row {
+    padding: 0;
+    margin-top: 135px;
+    margin-bottom: 65px;
+    margin-left: 20px;
+    margin-right: 0px; }
+
+  .our-story--page .sec-connections .row {
+    margin-left: 20px;
+    margin-right: 0px; }
+
+  .our-story--page .sec-advertisement .col-content {
+    margin-bottom: 130px;
+    margin-left: 0px; }
+
+  /*image-banner-center*/
+  .our-story--page .sec-our-work-culture .col-header-banner img {
+    height: 505px; }
+
+  /*image-2, image-4*/
+  .our-story--page .sec-after-our-story .banner-image img {
+    margin-top: -223px; }
+
+  .our-story--page .sec-advertisement .image-description, .our-story--page .sec-after-our-story .banner-image {
+    margin-left: 25%; }
+
+  .our-story--page .sec-after-our-story .banner-image img, .our-story--page .sec-advertisement .image-description img {
+    height: 400px; }
+
+  /*##*/
+  .our-story--page .sec-advertisement .last-content {
+    margin-left: 144px; } }
+@media screen and (max-width: 769px) {
+  .our-story--page .sec-banner-top .cont-title .sec-banner-top--title, .our-story--page .sec-connections .cont-title .sec-connections--title {
+    font-size: 45px; }
+
+  .our-story--page .sec-our-strory h4, .our-story--page .sec-our-work-culture .content .col-header h4 {
+    font-size: 14px; }
+
+  .our-story--page .sec-advertisement .col-content .description {
+    font-size: 20px;
+    letter-spacing: 0.27px;
+    line-height: 32px;
+    margin-top: 80px;
+    margin-bottom: 22px; }
+
+  .slider-arrows {
+    display: unset; }
+    .slider-arrows .pre, .slider-arrows .next {
+      display: none !important; }
+
+  .sec-tt .sec-content .slider-dots-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 74px;
+    font-size: 13px; }
+
+  .sec-tt .sec-content .slider-dots li {
+    display: none; }
+
+  .our-story--page .sec-tt .slider-dots {
+    top: 25px;
+    left: 322px; }
+
+  /*img*/
+  .our-story--page .sec-banner-top .banner-image img {
+    height: 400px; }
+
+  .our-story--page .sec-advertisement .image-description, .our-story--page .sec-after-our-story .banner-image {
+    margin-left: 20%; }
+
+  .our-story--page .sec-after-our-story .banner-image img, .our-story--page .sec-advertisement .image-description img {
+    height: 340px; }
+
+  .our-story--page .sec-our-work-culture .col-header-banner img {
+    height: 405px; }
+
+  .our-story--page .sec-connections .logo-content .row .img-logo img {
+    max-width: 80px; }
+
+  /*##img*/
+  .our-story--page .sec-advertisement .last-content {
+    margin-top: -45px; }
+
+  .our-story--page .sec-advertisement .last-content .sec-advertisement--title {
+    margin-bottom: 20px;
+    font-size: 20px; }
+
+  .our-story--page .sec-our-strory .description, .our-story--page .sec-after-our-story .description,
+  .sec-connections .description, .our-story--page .sec-our-work-culture .content .col-body .description,
+  .our-story--page .sec-advertisement .last-content .description {
+    font-size: 16px; } }
+@media (max-width: 576px) {
+  .our-story--page .sec-banner-top .cont-title {
+    padding-top: 0px;
+    margin-bottom: 0px; }
+
+  .our-story--page .sec-banner-top .cont-title .sec-banner-top--title, .our-story--page .sec-connections .cont-title .sec-connections--title {
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 50px; }
+
+  .our-story--page .sec-our-strory .row {
+    padding-bottom: 243px;
+    margin-left: 23px;
+    margin-right: 23px; }
+
+  .our-story--page .sec-after-our-story .row {
+    margin-top: 80px;
+    margin-left: 23px;
+    margin-right: 23px; }
+
+  .our-story--page .sec-banner-top .banner-image img {
+    height: 350px; }
+
+  .our-story--page .sec-advertisement .image-description, .our-story--page .sec-after-our-story .banner-image {
+    margin-left: 15%; }
+
+  .our-story--page .sec-after-our-story .banner-image img, .our-story--page .sec-advertisement .image-description img {
+    height: 310px; }
+
+  .our-story--page .sec-after-our-story .banner-image img {
+    margin-top: -175px; }
+
+  .our-story--page .sec-our-work-culture .col-header-banner img {
+    height: 305px; }
+
+  .sec-tt, .our-story--page .sec-advertisement .col-content {
+    display: none; }
+
+  .sec-advertisement {
+    padding-bottom: 300px;
+    padding-top: 41px; }
+
+  .our-story--page .sec-our-work-culture .content .col-body {
+    margin-bottom: 71px; }
+
+  .our-story--page .sec-our-work-culture .content .col-body .description {
+    padding-bottom: 10px; }
+
+  .our-story--page .sec-advertisement .last-content {
+    margin-left: 80px; }
+
+  .our-story--page .sec-advertisement .last-content .description {
+    margin-bottom: 0px; }
+
+  .our-story--page .sec-connections .row {
+    margin-left: 32px; }
+
+  .sec-our-work-culture .col-header {
+    margin-left: 12px; }
+
+  .sec-our-work-culture .cont-text {
+    margin-left: 47px; } }
+@media (max-width: 426px) {
+  .our-story--page .sec-banner-top .cont-title .sec-banner-top--title, .our-story--page .sec-connections .cont-title .sec-connections--title {
+    font-size: 26px;
+    line-height: 35px;
+    margin-bottom: 35px; }
+
+  .our-story--page .sec-banner-top .banner-image img {
+    height: 295px; }
+
+  .our-story--page .sec-our-strory h4 {
+    padding: 33px 0px 36px 0px; }
+
+  .our-story--page .sec-our-work-culture .content {
+    margin-top: 33px; }
+
+  .our-story--page .sec-our-strory h4, .our-story--page .sec-our-work-culture .content .col-header h4 {
+    font-size: 13px; }
+
+  .our-story--page .sec-after-our-story .banner-image img, .our-story--page .sec-advertisement .image-description img {
+    height: 240px; }
+
+  .our-story--page .sec-our-work-culture .col-header-banner img {
+    height: 305px; }
+
+  .our-story--page .sec-advertisement .image-description, .our-story--page .sec-after-our-story .banner-image {
+    margin-left: 7%; }
+
+  .our-story--page .sec-after-our-story .banner-image img {
+    margin-top: -140px; }
+
+  .our-story--page .sec-connections .logo-content .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+  .our-story--page .sec-connections .logo-content {
+    padding-left: 55px;
+    margin-top: 65px;
+    margin-bottom: 44px; }
+
+  .our-story--page .sec-connections .logo-content .row .img-logo img {
+    margin: 0px;
+    margin-bottom: 45px; }
+
+  .our-story--page .sec-connections .logo-content .row .img-logo img {
+    max-width: 50px; }
+
+  .our-story--page .sec-connections .row {
+    margin-left: 23px; }
+
+  .our-story--page .sec-our-strory .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 171px; }
+
+  .our-story--page .sec-after-our-story .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 44px; }
+
+  .our-story--page .sec-connections .row {
+    margin-left: 0px; }
+
+  .our-story--page .sec-connections .cont-title {
+    padding-top: 0px;
+    margin-bottom: 39px;
+    margin-left: 0px;
+    margin-top: 10px; }
+
+  .our-story--page .sec-our-work-culture .content .col-body {
+    margin-right: 0px; }
+
+  .sec-our-work-culture .cont-text {
+    margin-left: 12px; }
+
+  .our-story--page .sec-advertisement .last-content .sec-advertisement--title {
+    line-height: 35px; }
+
+  .our-story--page .sec-advertisement .last-content {
+    margin-left: 15px; } }
+@media (max-width: 415px) {
+  .our-story--page .sec-banner-top .cont-title .sec-banner-top--title, .our-story--page .sec-connections .cont-title .sec-connections--title {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 35px; }
+
+  .our-story--page .sec-banner-top .banner-image img {
+    height: 290px; }
+
+  .our-story--page .sec-our-strory h4 {
+    padding: 33px 0px 36px 0px; }
+
+  .our-story--page .sec-our-work-culture .content {
+    margin-top: 33px; }
+
+  .our-story--page .sec-our-strory h4, .our-story--page .sec-our-work-culture .content .col-header h4 {
+    font-size: 13px; }
+
+  .our-story--page .sec-after-our-story .banner-image img, .our-story--page .sec-advertisement .image-description img {
+    height: 240px; }
+
+  .our-story--page .sec-our-work-culture .col-header-banner img {
+    height: 305px; }
+
+  .our-story--page .sec-advertisement .image-description, .our-story--page .sec-after-our-story .banner-image {
+    margin-left: 8%; }
+
+  .our-story--page .sec-after-our-story .banner-image img {
+    margin-top: -140px; }
+
+  .our-story--page .sec-connections .logo-content .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+  .our-story--page .sec-connections .logo-content {
+    padding-left: 55px;
+    margin-top: 65px;
+    margin-bottom: 44px; }
+
+  .our-story--page .sec-connections .logo-content .row .img-logo img {
+    margin: 0px;
+    margin-bottom: 45px; }
+
+  .our-story--page .sec-connections .logo-content .row .img-logo img {
+    max-width: 50px; }
+
+  .our-story--page .sec-connections .row {
+    margin-left: 23px; }
+
+  .our-story--page .sec-our-strory .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 171px; }
+
+  .our-story--page .sec-after-our-story .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 44px; }
+
+  .our-story--page .sec-connections .row {
+    margin-left: 0px; }
+
+  .our-story--page .sec-connections .cont-title {
+    padding-top: 0px;
+    margin-bottom: 39px;
+    margin-left: 0px;
+    margin-top: 10px; }
+
+  .our-story--page .sec-our-work-culture .content .col-body {
+    margin-right: 0px; }
+
+  .sec-our-work-culture .cont-text {
+    margin-left: 12px; }
+
+  .our-story--page .sec-advertisement .last-content .sec-advertisement--title {
+    line-height: 35px; }
+
+  .our-story--page .sec-advertisement .last-content {
+    margin-left: 14px; } }
+@media (max-width: 376px) {
+  .our-story--page .sec-banner-top .cont-title .sec-banner-top--title, .our-story--page .sec-connections .cont-title .sec-connections--title {
+    max-width: 310px;
+    letter-spacing: 0.4px;
+    font-size: 21px;
+    line-height: 32px; }
+
+  .our-story--page .sec-connections .cont-title .sec-connections--title {
+    max-width: 315px; }
+
+  .our-story--page .sec-banner-top .banner-image img {
+    height: 179px; }
+
+  .our-story--page .sec-our-strory .description, .our-story--page .sec-after-our-story .description,
+  .sec-connections .description, .our-story--page .sec-our-work-culture .content .col-body .description,
+  .our-story--page .sec-advertisement .last-content .description {
+    font-size: 12px; }
+
+  .our-story--page .sec-advertisement .image-description, .our-story--page .sec-after-our-story .banner-image {
+    margin-left: 4%; }
+
+  .our-story--page .sec-our-work-culture .col-header-banner img {
+    height: 209px; }
+
+  .our-story--page .sec-after-our-story .banner-image img {
+    margin-top: -93px; }
+
+  .our-story--page .sec-after-our-story .banner-image img, .our-story--page .sec-advertisement .image-description img {
+    height: 169px; }
+
+  .our-story--page .col-row {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  .sec-our-work-culture .cont-text {
+    margin-left: 0px; }
+
+  .our-story--page .sec-our-strory .row {
+    padding-bottom: 121px; }
+
+  .our-story--page .sec-after-our-story .row {
+    margin-bottom: 25px; }
+
+  .our-story--page .sec-our-strory h4, .our-story--page .sec-our-work-culture .content .col-header h4 {
+    font-size: 10px;
+    letter-spacing: 0.19px;
+    line-height: 20px; }
+
+  .our-story--page .sec-our-work-culture .content .col-body .sec-link--learn-more-about-our-work, .our-story--page .sec-advertisement .last-content .sec-link-discover {
+    font-size: 10px;
+    letter-spacing: 0.19px; }
+
+  .our-story--page .sec-advertisement .last-content {
+    margin-left: 0px;
+    margin-top: -67px; } }
+@media (max-width: 320px) {
+  .our-story--page .sec-banner-top .cont-title .sec-banner-top--title, .our-story--page .sec-connections .cont-title .sec-connections--title {
+    font-size: 20px; } }
+/*###RESPONSIVE*/
+/*#END*/

@@ -1,0 +1,193 @@
+.banner-top {
+  max-height: 557px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 88px; }
+  .banner-top img {
+    min-width: 100%;
+    min-height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .banner-top::after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.4; }
+
+.banner-content {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 5; }
+  .banner-content .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 20px; }
+
+.banner-title {
+  max-width: 706px; }
+
+.banner-sub-title {
+  max-width: 274px; }
+
+.cat-bar {
+  padding-bottom: 72px;
+  text-align: center; }
+  .cat-bar button:not(:first-child) {
+    margin-left: -4px;
+    border-left: 1px solid #fff; }
+  .cat-bar button {
+    background-color: transparent;
+    border: none;
+    padding: 0 15px;
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear; }
+    .cat-bar button.active {
+      color: #3c7a73; }
+    .cat-bar button:hover {
+      color: #3c7a73; }
+
+.post-gr {
+  position: relative; }
+
+.sec-work-post {
+  margin-bottom: 164px; }
+
+.w-post-container {
+  margin: 0 -37px;
+  margin-bottom: 164px; }
+
+.post-member {
+  padding: 0 37px;
+  margin-bottom: 71px; }
+
+.sec-contact-logo {
+  margin-bottom: 436px; }
+  .sec-contact-logo .title {
+    margin-bottom: 138px; }
+
+footer .super-title {
+  top: -105px; }
+  footer .super-title .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    footer .super-title .container .content {
+      padding: 0; }
+
+.cat-add-content h4 {
+  margin-bottom: 73px; }
+.cat-add-content .cat-content {
+  padding: 0 98px 0 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+.cat-add-content .col-left {
+  max-width: 557px; }
+  .cat-add-content .col-left img {
+    margin-bottom: 40px; }
+  .cat-add-content .col-left p {
+    margin-bottom: 30px; }
+  .cat-add-content .col-left a {
+    color: #fff;
+    text-decoration: underline; }
+.cat-add-content .col-right {
+  max-width: 476px; }
+  .cat-add-content .col-right img {
+    min-width: 100%;
+    height: 476px;
+    border-radius: 50%; }
+
+input.data-sort {
+  display: none; }
+
+@media screen and (max-width: 991px) {
+  .cat-add-content .cat-content {
+    display: block; }
+  .cat-add-content .col-left {
+    margin: auto;
+    margin-bottom: 50px; }
+  .cat-add-content .col-right {
+    margin: auto; }
+
+  .w-post-container {
+    margin-left: -15px;
+    margin-right: -15px; }
+    .w-post-container .post-member {
+      padding: 0 15px;
+      margin-bottom: 35px; } }
+@media screen and (max-width: 768px) {
+  .cat-add-content .cat-content {
+    padding: 0; } }
+.cat-add-content .col-left img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center; }
+
+@media screen and (max-width: 575px) {
+  .banner-sub-title {
+    display: none; }
+
+  .banner-top {
+    margin-bottom: 26px; }
+
+  .banner-top img {
+    height: 246px; }
+
+  .cat-bar {
+    padding-bottom: 26px; }
+
+  .cat-bar button {
+    font-size: 10px;
+    letter-spacing: 0.19px; }
+
+  .cat-add-content .col-right img {
+    width: 100%;
+    height: auto; }
+
+  .cat-add-content .col-left p {
+    line-height: 1.4; }
+
+  .sec-contact-logo {
+    margin-bottom: 607px; }
+    .sec-contact-logo .title {
+      margin-bottom: 65px;
+      font-size: 10px; }
+    .sec-contact-logo .row {
+      margin: 0;
+      padding: 0 8px; }
+
+  .sec-contact-logo .icon-item {
+    padding: 0 27px; }
+
+  .w-post-container,
+  .sec-work-post {
+    margin-bottom: 115px; }
+
+  footer .super-title {
+    top: -251px; }
+
+  footer .super-title .sub-title {
+    margin-bottom: 57px; } }

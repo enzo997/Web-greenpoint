@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Mikro-Black';
+    src: url('../fonts/Mikro-Black/Mikro-Black.eot');
+    src: url('../fonts/Mikro-Black/Mikro-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mikro-Black/Mikro-Black.woff2') format('woff2'),
+        url('../fonts/Mikro-Black/Mikro-Black.woff') format('woff'),
+        url('../fonts/Mikro-Black/Mikro-Black.ttf') format('truetype'),
+        url('../fonts/Mikro-Black/Mikro-Black.svg#Mikro-Black') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Mikro-Light';
+    src: url('../fonts/Mikro-Light/Mikro-Light.eot');
+    src: url('../fonts/Mikro-Light/Mikro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mikro-Light/Mikro-Light.woff2') format('woff2'),
+        url('../fonts/Mikro-Light/Mikro-Light.woff') format('woff'),
+        url('../fonts/Mikro-Light/Mikro-Light.ttf') format('truetype'),
+        url('../fonts/Mikro-Light/Mikro-Light.svg#Mikro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Mikro-Regular';
+    src: url('../fonts/Mikro-Regular/Mikro-Regular.eot');
+    src: url('../fonts/Mikro-Regular/Mikro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mikro-Regular/Mikro-Regular.woff2') format('woff2'),
+        url('../fonts/Mikro-Regular/Mikro-Regular.woff') format('woff'),
+        url('../fonts/Mikro-Regular/Mikro-Regular.ttf') format('truetype'),
+        url('../fonts/Mikro-Regular/Mikro-Regular.svg#Mikro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Mikro-Medium';
+    src: url('../fonts/Mikro-Medium/Mikro-Medium.eot');
+    src: url('../fonts/Mikro-Medium/Mikro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mikro-Medium/Mikro-Medium.woff2') format('woff2'),
+        url('../fonts/Mikro-Medium/Mikro-Medium.woff') format('woff'),
+        url('../fonts/Mikro-Medium/Mikro-Medium.ttf') format('truetype'),
+        url('../fonts/Mikro-Medium/Mikro-Medium.svg#Mikro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Mikro-Bold';
+    src: url('../fonts/Mikro-Bold/Mikro-Bold.eot');
+    src: url('../fonts/Mikro-Bold/Mikro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mikro-Bold/Mikro-Bold.woff2') format('woff2'),
+        url('../fonts/Mikro-Bold/Mikro-Bold.woff') format('woff'),
+        url('../fonts/Mikro-Bold/Mikro-Bold.ttf') format('truetype'),
+        url('../fonts/Mikro-Bold/Mikro-Bold.svg#Mikro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'GT-Walsheim';
+    src: url("../fonts/GT-Walshiem/gt-walsheim-regular.ttf");
+    src: url("../fonts/GT-Walshiem/gt-walsheim-regular.ttf?#iefix");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback; }
+    
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium/Poppins-Medium.woff') format('woff'),
+        url('../fonts/Poppins-Medium/Poppins-Medium.ttf') format('truetype'),
+        url('../fonts/Poppins-Medium/Poppins-Medium.svg#Poppins-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
